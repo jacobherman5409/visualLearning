@@ -14,8 +14,6 @@
                 <label for=pwd>password:</label><br>
                 <input type=text id=pwd name=pwd><br>
                 <input type=submit value=submit>
-
-
             </fieldset>
         </form>
 
