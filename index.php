@@ -9,13 +9,16 @@
 <body>
     <div class=outer_frm>
         <form>
-            <fieldset>
-                <label for=fname>username:</label><br>
-                <input type=text id=fname name=fname><br>
-                <label for=pwd>password:</label><br>
-                <input type=text id=pwd name=pwd><br>
-                <input type=submit value=submit>
-            </fieldset>
+            <!-- <fieldset> -->
+                <!-- <label for=fname>username:</label><br> -->
+                <input type="text" id="fname" name="fname" placeholder ="username"><br>
+                <!-- <label for=pwd>password:</label><br> -->
+                <input type="text" id="pwd" name="pwd" placeholder="password"><br>
+                <div id="button_wrapper">
+                    <input type="submit" value="submit">
+                </div>
+                
+             <!-- </fieldset>  -->
         </form>
 
     </div>
