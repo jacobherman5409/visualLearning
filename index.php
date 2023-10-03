@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class=outer_frm>
-        <form>
+        <form name="login" onsubmit="return validateForm()">
             <!-- <fieldset> -->
                 <!-- <label for=fname>username:</label><br> -->
                 <input type="text" id="fname" name="fname" placeholder ="username"><br>
@@ -22,5 +22,16 @@
         </form>
 
     </div>
+    <script>
+        function validateForm(){
+            var x = document.forms["login"]["fname"].value;
+            var y = document.forms["login"]["pwd"].value;
+            if( x == "" || y == "") {
+                alert("must be filled out");
+
+                return false;
+            }
+        }
+    </script>
 </body>
 </html>

@@ -1,30 +1,32 @@
-.outer_frm{
-    background: blue;
-    border-radius: 25px;
-    border: 2px solid yellow;
-    padding: 100px;
-    width: 250px;
-    height: 200px;
+.outer_frm {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 100px;
+  width: 250px;
+  height: 200px;
 }
-body{
-    background: red;
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-    
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
-input{
-    width: 100%;
-    border-radius: 10px;
-    padding-bottom: 20px;
-    margin-top: 5px;
-    padding: 12px;
-    resize: vertical;
-    
+input {
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 5px;
+  padding: 12px;
+  resize: vertical;
 }
-#button_wrapper{
-margin-top: 8px;
-border: none;
-cursor: pointer;
-float: center;
+#button_wrapper {
+  width: 278px;
+  margin-top: 8px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+input[type="submit"] {
+  cursor: pointer;
+  width: 100px;
+  background-color: blue;
 }
