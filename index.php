@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class=outer_frm>
-        <form name="login" onsubmit="return validateForm()">
+        <form action = "conn.php" name="login" onsubmit="return validateForm()" method = "post">
             <!-- <fieldset> -->
                 <!-- <label for=fname>username:</label><br> -->
                 <input type="text" id="fname" name="fname" placeholder ="username"><br>
