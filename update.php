@@ -1,7 +1,7 @@
 <?php
 include('conn.php');
 echo '<br>';
-$sql = "UPDATE users SET fname = 'Lio' WHERE id = 1";
+$sql = "UPDATE users SET fname = 'Jen' WHERE id = 3";
 $res = mysqli_query($conn, $sql);
 
 if($res){
